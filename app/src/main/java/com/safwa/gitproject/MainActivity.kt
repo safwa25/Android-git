@@ -17,6 +17,6 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        println("First line")
+        print("First line")
     }
 }
