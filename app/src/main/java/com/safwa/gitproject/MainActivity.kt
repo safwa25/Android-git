@@ -22,5 +22,6 @@ class MainActivity : AppCompatActivity() {
 
         println("Say my name ")
         Log.d("MyLog", "Hello from about")
+        println("Android check point")
     }
 }
