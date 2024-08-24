@@ -17,6 +17,10 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        println("First line")
+
+        println("Say my name ")
         Log.d("MyLog", "Hello from about")
     }
 }
