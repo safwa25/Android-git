@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
+        print("First line")
         println("First line")
 
         println("Say my name ")
