@@ -1,6 +1,7 @@
 package com.safwa.gitproject
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -17,11 +18,10 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        print("First line")
         println("First line")
-        println("Second line")
 
         println("Say my name ")
+        Log.d("MyLog", "Hello from about")
         println("Android check point")
     }
 }
