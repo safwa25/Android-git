@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         print("First line")
         println("First line")
+        println("Second line")
 
         println("Say my name ")
         println("Android check point")
